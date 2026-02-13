@@ -23,7 +23,7 @@ function goTo(page){
 // Password
 function checkPassword(){
   var input=document.getElementById('passwordInput');
-  if(input.value.trim()==='33'){
+  if(input.value.trim()==='27'){
     goTo('letter');input.value='';
     document.getElementById('errorMsg').style.display='none';
   }else{
@@ -144,3 +144,4 @@ function startEnding(){
 			}
 		});
 	}
+
